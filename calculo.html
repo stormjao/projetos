@@ -7,6 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projetinho</title>
     <link rel="stylesheet" type="text/css" href="estilo.css">
+    <script type="text/javascript">
+        
+        let nomeCliente = prompt("Olá, para prosseguir, insira seu nome e sobrenome")
+        let rendaCliente = prompt("Insira sua renda(digite sem pontos e vircular):")
+
+    </script>
+
 </head>
 
 <body>
@@ -17,9 +24,24 @@
     </header>
     <br><br><br><br><br>
     <section>
-        <h2>PAGINA INICIAL</h2>
+        <h2>O resultado da análise de crédito é: </h2>
         <br>
-       <a href="calculo.html">Calcular seu credito</a>
+        <script type="text/javascript">
+            document.write("Ola ", nomeCliente)
+        </script><br><br>
+    <script type="text/javascript">
+        
+        if(rendaCliente>=2000){
+            document.write("Parabéns! seu credtio esta aprovado!")
+            document.write("Um de nossos atendentes entrara em contato com você em breve!")
+        }else{
+            document.write("Infelizmente, não podemos aprovar seu crédito nesse momento... Mas não desista! Tenta novamente daqui a 20 dias.")
+        }
+
+    </script>
+    <br><br>
+
+       <a href="index.html">Voltar para pagina inicial</a>
     </section>
     <br><br>
     <br><br>
