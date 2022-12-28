@@ -1,102 +1,88 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" class="">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto</title>
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="profile">
+        <img src="./assets/eu.png" alt="Foto de perfil do João de terno." />
+        <p>@joaoo.jj</p>
+      </div>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projetinho</title>
-    <link rel="stylesheet" type="text/css" href="estilo.css">
-</head>
+      <div id="switch" onclick="toggleMode()">
+        <button></button>
+        <span></span>
+      </div>
 
-<body>
+      <ul>
+        <li>
+          <a
+            href="https://api.whatsapp.com/send/?phone=5511976624624&text&type=phone_number&app_absent=0"
+            target="_blank"
+            >Falar comigo no Whatsapp</a
+          >
+        </li>
+        <li>
+          <a href="https://github.com/stormjao?tab=repositories" target="_blank"
+            >Ver meu Portifólio</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/jo%C3%A3o-gabriel-04774420b/"
+            target="_blank"
+            >Meu Linkedin</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://grupolinx-my.sharepoint.com/personal/taisy_deodato_linx_com_br/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Ftaisy%5Fdeodato%5Flinx%5Fcom%5Fbr%2FDocuments%2FAnexos%2FCV%20Jo%C3%A3o%20Gabriel%20Brasil%20Ara%C3%BAjo%20Ribeiro%201%2Epdf&parent=%2Fpersonal%2Ftaisy%5Fdeodato%5Flinx%5Fcom%5Fbr%2FDocuments%2FAnexos&ga=1"
+            target="_blank"
+            >Ver meu currículo</a
+          >
+        </li>
+      </ul>
+      <div id="social">
+        <a href="https://github.com/stormjao?tab=repositories" target="_blank"
+          ><ion-icon name="logo-github"></ion-icon>
+        </a>
+        <a
+          href="https://api.whatsapp.com/send/?phone=5511976624624&text&type=phone_number&app_absent=0"
+          target="_blank"
+          ><ion-icon name="logo-whatsapp"></ion-icon
+        ></a>
+        <a href="https://www.instagram.com/joaoo.jj/" target="_blank"
+          ><ion-icon name="logo-instagram"></ion-icon
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/jo%C3%A3o-gabriel-04774420b/"
+          target="_blank"
+        >
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+      </div>
+      <footer>Desenvolvido por João Gabriel Brasil.</footer>
+    </div>
 
-    <header>
-        <h1> Analise de credito </h1>
-        <h3> Faça sua analise agora </h3>
-    </header>
-    <br><br><br><br><br>
-    <section>
-        <h2>PAGINA INICIAL</h2>
-        <br>
-       <a href="calculo.html">Calcular seu credito</a>
-    </section>
-    <br><br>
-    <br><br>
-    <!--
-    <section>
-        <h2>Tem garantia?</h2>
-        <br>
-        <p>Sim! a garantia é de até <b>7 DIAS ÚTEIS</b> caso não goste, nos podemos devolver seu dinheiro!, aceitamos
-            <b>PIX, CARTÃO DE CRÉDITO, DÉBIYO, BOLETO, TRANFERENCIA BÁNCARIA</b> <b>JAVASCRIPT</b>, tudo na melhor
-            identação para seu site!
-            Muitas pessoas optam por comprar o produto que está exposto, ou no mostruário, pois costumam ter descontos.
-            O que muitos não sabem, é que, segundo o Código de Defesa do Consumidor – CDC, esses produtos tem a mesma
-            garantia que os produtos vendidos na caixa.
-
-            A garantia legal é tratada no artigo 26 do CDC, que traz a previsão de um período para o consumidor reclamar
-            de defeitos em produtos ou serviços. O mencionado artigo não faz nenhuma ressalva ou exceção que retire a
-            garantia para produtos em exposição.
-
-            Para exercer a garantia legal basta que o consumidor apresente a reclamação juntamente com o comprovante de
-            compra, dentro de 30 dias, para serviços e produtos não duráveis, ou 90 dias, para serviços e produtos
-            duráveis.
-
-            O CDC também prevê a possibilidade de outro tipo garantia, chamada de contratual ou estendida, que é
-            complementar à garantia legal. A garantia estendida é descrita no artigo 50 do mesmo código e, apesar de não
-            ser obrigatória, tem que ser entregue por meio de termo escrito, com todas as informações necessárias para
-            que o consumidor possa utilizá-la.
-
-            Conforme o artigo 74 do mencionado diploma legal, a não entrega do termo de garantia contratual devidamente
-            preenchido constitui crime e a pena prevista é de 1 a 6 meses de detenção ou multa.
-        </p>
-    </section>
-    <br><br>-->
-
-     <!--
-    <section>
-        <h2>O que Oferecemos?</h2>
-        <br>
-        <p>Sites feitos com <b>HTML</b> puro, <b>CSS</b> e <b>JAVASCRIPT</b>, GARANTIA, DESCONTOS, SEGURANÇA, SUPORTE,
-            BELEZA, PARCERIA E MUITO MAIS! VENHA SER NOSSO PARCEIRO! Veja as principais causas de ter um site: Ter um
-            cartão de visitas digital. ...
-            Construir credibilidade. ...
-            Ter facilidade para ser encontrado. ...
-            Marcar presença online 24 horas. ...
-            Fortalecer a marca. ...
-            Proporcionar ótimo custo-benefício. ...
-            Faça o registro do domínio. ...
-            Realize a hospedagem do seu site.
-            <b>Mas o que é um site gabriel?</b>
-            Apesar de estarmos em contato com um constantemente, é preciso entender a fundo o que é um site e qual o seu
-            papel na internet.
-
-            Um site é uma coleção de páginas da web relacionadas normalmente veiculadas a partir de um único domínio da
-            web. Ele pode ser hospedado em um único servidor web ou em vários servidores. Um site é acessível através de
-            uma rede, como a Internet ou uma intranet.
-
-            Todos os sites têm uma página inicial, que é a primeira página que os visitantes veem quando o acessam. A
-            página inicial, normalmente, contém links para outras páginas dentro do próprio site. Os sites geralmente
-            são organizados em seções, com cada seção tendo seu próprio URL exclusivo.
-
-            Além disso, os sites podem ser estáticos, o que significa que não são atualizados com muita frequência, ou
-            dinâmicos, o que significa que estão em constante mudança. Sites estáticos são mais comuns para sites
-            pessoais e pequenas empresas, enquanto sites dinâmicos são mais comuns para sites de comércio eletrônico e
-            grandes empresas.
-        </p>
-    </section> -->
-    <br><br>
-    <footer>
-        <h5> Gabriel Pages Criações de Paginas e Lojas</h5>
-        <br>
-        <h4> Contatos:</h4>
-        <br>
-        <h4>gabriel.10spfc@gmail.com</h4>
-        <h4>Whatsapp: (11) 97662-4624</h4>
-    </footer>
-
-
-
-</body>
-
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
 </html>
